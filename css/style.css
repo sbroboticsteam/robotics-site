@@ -773,6 +773,10 @@ a:hover, a:focus, a:active {
   }
 }
 
+.about-us {
+  margin-bottom: -25px !important;
+}
+
 .probootstrap-hero {
   background-size: cover;
   background-position: center center;

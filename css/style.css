@@ -937,6 +937,39 @@ a:hover, a:focus, a:active {
   }
 }
 
+.project-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 43em;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .project-img {
+    height: 100%;
+    width: 35em;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-img {
+    height: 100%;
+    width: 25em;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-img {
+    height: 100%;
+    width: 19.5em;
+    margin-bottom: 2em;
+  }
+}
+
 .probootstrap-home-showcase-wrap .probootstrap-image-showcase > ul {
   padding: 0;
   margin: 0;

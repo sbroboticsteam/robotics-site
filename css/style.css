@@ -4,8 +4,8 @@ body {
   color: #4d4d4d;
   font-weight: 400;
   font-size: 0.9rem;
-  font-family: "Roboto Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: "Nunito Sans", serif;
+}
 
 ::-moz-selection {
   background: #000;
@@ -240,11 +240,11 @@ a {
       display: inline-block;
       padding: 10px 5px; }
       .site-navbar .site-navigation .site-menu > li > a {
-        padding: 10px 10px;
+        padding: 7px 7px;
         text-transform: uppercase;
         letter-spacing: .05em;
         color: rgba(0, 0, 0, 0.6);
-        font-size: 15px;
+        font-size: 14px;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
           color: #000; }

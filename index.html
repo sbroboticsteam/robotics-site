@@ -13,13 +13,13 @@
     <meta property="og:title" content="Stony Brook Robotics Team"/>
     <meta property="og:url" content="http://sbroboticsteam.com"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:description" content="Stony Brook Robotics Team is a university engineering design team that builds robots to inspire students, and inspires students to build robots."/>
+    <meta property="og:description" content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects."/>
     <meta property="og:image" content="images/logo.png"/>
     <meta property="og:image:width" content="1000"/>
     <meta property="og:image:height" content="1000"/>
     <meta itemprop="name" content="Stony Brook Robotics Team"/>
     <meta itemprop="url" content="http://sbroboticsteam.com"/>
-    <meta itemprop="description" content="Stony Brook Robotics Team is a university engineering design team that builds robot to inspire students, and inspires students to build robots."/>
+    <meta itemprop="description" content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects."/>
     <meta itemprop="thumbnailUrl" content="images/logo.png"/>
     
     <link rel="icon" type="images/png" href="images/favicon.png" />
@@ -29,11 +29,13 @@
     <meta name="twitter:image" content="images/logo.png"/>
     <meta name="twitter:url" content="http://sbroboticsteam.com"/>
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:description" content="Stony Brook Robotics Team is a university engineering design team that builds robot to inspire students, and inspires students to build robots."/>
-    <meta name="description" content="Stony Brook Robotics Team is a university engineering design team that builds robots 
-    to inspire students and inspires students to build robots." />
+    <meta name="twitter:description" content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects."/>
+    <meta name="description" content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
 
+    <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500"> 
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+    
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -43,10 +45,10 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     
-    
+    <!-- Icons -->
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   
     <link rel="stylesheet" href="css/aos.css">
 
@@ -111,12 +113,19 @@
                     <li class="has-children">
                       <a href="#">Projects</a>
                       <ul class="dropdown arrow-top">
-                        <li><a href="urc.html">University Rover Challenge</a></li>
-                        <li><a href="mechwarfare.html">ShepRobo Fest: MechWarfare 2017</a></li>
+                        <li><a href="rover.html">Mars Rover</a></li>
+                        <li class="has-children">
+                            <a href="#">Past Projects</a>
+                            <ul class="dropdown">
+                              <li><a href="sheprobofest.html">ShepRobofest 2017: MechWarfare</a></li>
+                            </ul>
+                          </li>
                       </ul>
                     </li>
+                    <li><a href="resources.html">Resources</a></li>
                     <li><a href="sponsors.html">Sponsors</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li><a href="join.html">Join The Team</a></li>
                   </ul>
                 </div>
               </nav>
@@ -129,7 +138,7 @@
 
     <div class="slide-one-item home-slider owl-carousel">
 
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.9">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
@@ -139,7 +148,7 @@
         </div>
       </div>  
 
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_2.jpg);" data-aos="fade" data-stellar-background-ratio="0.9">
         <div class="container">
           <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-10">
@@ -147,27 +156,16 @@
             </div>
           </div>
         </div>
-      </div> 
-      
-      <!--<div class="site-blocks-cover overlay" style="background-image: url(images/hero_bg_3.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-        <div class="container">
-          <div class="row align-items-center justify-content-center text-center">
-            <div class="col-md-10">
-              <h1 class="mb-5">Make Something <strong>Awesome</strong></h1>
-            </div>
-          </div>
-        </div>
-      </div>-->
-
+      </div>
     </div>
 
     <div class="site-section border-bottom bg-light py-5">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center mb-5"><h2 class="text-black h6 font-weight-bold text-uppercase" data-aos="fade">Let the number speak for us.</h2></div>
+          <div class="col-12 text-center mb-5"><h2 class="text-black h6 font-weight-bold text-uppercase" data-aos="fade">Let the numbers speak for us.</h2></div>
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="0">
             <div class="d-flex align-items-center">
-              <div class="mr-3"><span class="flaticon-worker display-3 text-primary"></span></div>
+              <div class="mr-3"><span class="display-3 text-primary"><i class="fas fa-users"></i></span></div>
               <div class="">
                 <h2 class="text-black">50+</h2> <strong class="text-black">Dedicated</strong> Members
               </div>
@@ -176,7 +174,7 @@
 
           <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
             <div class="d-flex align-items-center">
-              <div class="mr-3"><span class="flaticon-agreement display-3 text-primary"></span></div>
+              <div class="mr-3"><span class="display-3 text-primary"><i class="fas fa-heart"></i></span></div>
               <div class="">
                 <h2 class="text-black">100%</h2> <strong class="text-black">Teamwork</strong> + <strong class="text-black">Passion</strong>
               </div>
@@ -185,9 +183,9 @@
           
           <div class="col-md-6 col-lg-4 mb-0 mb-lg-0" data-aos="fade" data-aos-delay="300">
             <div class="d-flex align-items-center">
-              <div class="mr-3"><span class="flaticon-gears display-3 text-primary"></span></div>
+              <div class="mr-3"><span class="display-3 text-primary"><i class="fas fa-robot"></i></span></div>
               <div class="">
-                <h2 class="text-black">100+</h2> <strong class="text-black">Awesome</strong> Creations
+                <h2 class="text-black">20+</h2> <strong class="text-black">Awesome</strong> Creations
               </div>
             </div>
           </div>
@@ -204,17 +202,23 @@
             <h2 class="font-weight-light text-black display-4">What We Do</h2>
           </div>
           <div class="col-md-7 text-center">
-            <p>The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through innovative design challenges.</p>
+            <p>The Stony Brook Robotics Team is a multidisciplinary 
+              engineering design team that aspires to develop our members' 
+              technical skills through competition-based projects.</p>
           </div>
         </div>
         <div class="row no-gutters align-items-stretch h-100">
           <div class="col-lg-6">
             <div class="row no-gutters align-items-stretch h-100 half-sm">
-              <div class="col-md-6 bg-image bg-sm-height" style="background-image: url('images/img_4_colored.jpg');" data-aos="fade" data-aos-delay="0"></div>
+              <div class="col-md-6 bg-image bg-sm-height" style="background-image: url('images/2018_2019/urc2019_0.jpg');" data-aos="fade" data-aos-delay="0"></div>
               <div class="col-md-6 bg-light text">
                 <div class="p-4">
-                  <h2 class="h5 mb-3 text-black line-height-sm">Mechanical CAD + Fabrication</h2>
-                  <p>From the computer aided design of our robot's mechanical structure to the fabrication of parts using a variety of materials, our mechanical team members have the opportunity to expand their skillsets through hands-on projects.</p>
+                  <h2 class="h5 mb-3 text-black line-height-sm">Competition-based Robotics Projects</h2>
+                  <p>Our members participate in annual competition-based robotics projects,
+                    challenging themselves to create the next generation of robots and 
+                    experimenting with new technologies in mechanical design, fabrication, 
+                    and automation.
+                  </p>
                   <p class="mb-0"><a href="about.html" class=""><small class="text-uppercase font-weight-bold text-black">Learn More</small></a></p>
                 </div>
               </div>
@@ -222,12 +226,15 @@
           </div>
           <div class="col-lg-6">
             <div class="row no-gutters align-items-stretch h-100 half-sm">
-              <div class="col-md-6 bg-image order-md-2 order-lg-1 bg-sm-height" style="background-image: url('images/img_1_colored.jpg');" data-aos="fade" data-aos-delay="200"></div>
+              <div class="col-md-6 bg-image order-md-2 order-lg-1 bg-sm-height" style="background-image: url('images/2018_2019/workshops1.jpg');" data-aos="fade" data-aos-delay="200"></div>
               <div class="col-md-6 bg-light text order-md-1 order-lg-2">
                 <div class="p-4">
-                  <h2 class="h5 mb-3 text-black line-height-sm">Circuit Analysis + PCB Design</h2>
-                  <p>Our robots run on custom electrical circuit boards designed by our electrical team, whose members learn in-depth circuit analysis as they create PCBs that are made to meet strict specifications.</p>
-                  <p class="mb-0"><a href="about.html" class=""><small class="text-uppercase font-weight-bold text-black">Learn More</small></a></p>
+                  <h2 class="h5 mb-3 text-black line-height-sm">Technical Workshops + Mentorship</h2>
+                  <p>Every year, we host a series of technical workshops in everything from 
+                    CAD to programming in Python. In addition, we are focused on providing our members with 
+                    long-term learning opportunities through our mentorship program.  
+                  </p>
+                  <p class="mb-0"><a href="mentorship.html" class=""><small class="text-uppercase font-weight-bold text-black">Learn More</small></a></p>
                 </div>
               </div>
             </div>
@@ -235,23 +242,31 @@
 
           <div class="col-lg-6">
             <div class="row no-gutters align-items-stretch h-100 half-sm">
-              <div class="col-md-6 bg-image order-md-1 order-lg-2 bg-sm-height" style="background-image: url('images/img_2_colored.jpg');" data-aos="fade" data-aos-delay="300"></div>
+              <div class="col-md-6 bg-image order-md-1 order-lg-2 bg-sm-height" style="background-image: url('images/2018_2019/internalcomp6.jpg');" data-aos="fade" data-aos-delay="300"></div>
               <div class="col-md-6 bg-light text order-md-2 order-lg-1">
                 <div class="p-4">
-                  <h2 class="h5 mb-3 text-black line-height-sm">Software Engineering</h2>
-                  <p>Across all of our projects, the software is always a key component that brings our robots to life. From low-level embedded systems to high-level object-oriented programming, our software team members have the chance to develop a wide breadth of skills.</p>
-                  <p class="mb-0"><a href="about.html" class=""><small class="text-uppercase font-weight-bold text-black">Learn More</small></a></p>
+                  <h2 class="h5 mb-3 text-black line-height-sm">Robot Design Challenges</h2>
+                  <p>Every Fall semester, we host our annual Internal Competition, 
+                    dedicated to providing roboticists and engineers all across Stony Brook 
+                    University with the opportunity to learn new skills and bring their ideas
+                    to fruition.
+                  </p>
+                  <p class="mb-0"><a href="internalcomp.html" class=""><small class="text-uppercase font-weight-bold text-black">Learn More</small></a></p>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="row no-gutters align-items-stretch h-100 half-sm">
-              <div class="col-md-6 bg-image order-md-2 bg-sm-height" style="background-image: url('images/img_3_colored.jpg');" data-aos="fade" data-aos-delay="400"></div>
+              <div class="col-md-6 bg-image order-md-2 bg-sm-height" style="background-image: url('images/2018_2019/outreach1.jpg');" data-aos="fade" data-aos-delay="400"></div>
               <div class="col-md-6 bg-light text order-md-1">
                 <div class="p-4">
-                  <h2 class="h5 mb-3 text-black line-height-sm">Geo-scientific Analysis</h2>
-                  <p>From finding signs of life on Mars-like environments to analyzing rock formations, our science team is geared to support our competition-specific goals through critical analysis of datasets and insight into the purpose of our robots.</p>
+                  <h2 class="h5 mb-3 text-black line-height-sm">Community Outreach</h2>
+                  <p>We are dedicated to supporting robotics and STEM learning 
+                    both on and off campus through workshops, presentations, and 
+                    mentoring. Supporting local communities and passionate roboticists 
+                    is always our priority.
+                  </p>
                   <p class="mb-0"><a href="about.html" class=""><small class="text-uppercase font-weight-bold text-black">Learn More</small></a></p>
                 </div>
               </div>
@@ -269,13 +284,13 @@
           <div class="col-md-6 bg-image bg-sm-height mb-5 mb-md-0 order-md-2" style="background-image: url('images/img_5_colored.jpg');" data-aos="fade-up"></div>
           <div class="col-md-6 pr-md-5 order-md-1">
             <h2 class="display-3 line-height-xs text-black mb-4">Let's engineer <strong>together</strong></h2>
-            <p class="mb-4">Want to expand your technical repertoire? Join the team! From the University Rover Challenge to our annual Internal Competition, our members have the opportunity to develop their skills by challenging themselves in competition-based projects.</p>
+            <p class="mb-4">Want to create awesome robotics projects? Expand your technical repertoire? Join the team!</p>
             <ul class="site-block-check">
               <li>Learn hands-on technical skills</li>
               <li>Design innovative projects</li>
               <li>Build awesome creations</li>
             </ul>
-            <p><a href="contact.html" class="btn btn-outline-primary btn-sm rounded-0 p-2 px-4">Join The Team</a></p>
+            <p><a href="join.html" class="btn btn-primary rounded-0 px-4 py-2 text-white">Join The Team</a></p>
           </div>
         </div>
       </div>
@@ -355,31 +370,26 @@
     </div>
   --> 
 
-    <div class="promo py-5 bg-primary" data-aos="fade">
-      <div class="container text-center">
-        <h2 class="d-block mb-0 font-weight-light text-white"><a href="contact.html" class="text-white d-block">Contact Us to Learn More!</a></h2>
-      </div>
-    </div>
-
-    <div class="bg-light promo py-5 bg-primary" data-aos="fade">
+    <div class="bg-light promo py-5 bg-primary border-top border-bottom" data-aos="fade">
+        <div class="container text-center">
+            <h1 class="d-block mb-2 font-weight-light text-black"><a href="sponsors.html" class="text-black d-block">Sponsors</a></h1>
+            <br />
+        </div>
       <div class="justify-content-center">
         <div class="row text-center flex-row">
-            <div class="col-md-3 pl-md-5">
-                <a href="http://stonybrookusg.org/" target="_blank"><img src="images/sponsors/usg.png" alt="Stony Brook University USG" class="w-75 mb-5 img-fluid"/></a>
+            <div class="col-sm-2 pl-md-5">
+                <a href="http://stonybrookusg.org/" target="_blank"><img src="images/sponsors/usg.png" alt="Stony Brook University USG" class="w-75 mb-2 img-fluid"/></a>
             </div>
-            <div class="col-md-3 pl-md-5">
-                <a href="https://www.stonybrook.edu/ceas/" target="_blank"><img src="images/sponsors/ceas.png" alt="Stony Brook University College of Engineering and Applied Sciences" class="w-75 mb-5 img-fluid" /></a>
+            <div class="col-sm-2 pl-md-5">
+                <a href="https://www.stonybrook.edu/ceas/" target="_blank"><img src="images/sponsors/ceas.png" alt="Stony Brook University College of Engineering and Applied Sciences" class="w-75 mb-2 img-fluid" /></a>
             </div>
-            <div class="col-md-3 pl-md-5">
-                <a href="https://voltera.io/" target="_blank"><img src="images/sponsors/voltera.png" alt="Voltera" class="w-75 mb-5 img-fluid" /></a>
+            <div class="col-sm-2 pl-md-5">
+                <a href="https://voltera.io/" target="_blank"><img src="images/sponsors/voltera.png" alt="Voltera" class="w-75 mb-2 img-fluid" /></a>
             </div>
-            <div class="col-md-3 pl-md-5">
-                <a href="http://www.maaloufashford.com/" target="_blank"><img src="images/sponsors/maalouf.png" alt="Maalouf Ashford & Talbot, LLP" class="w-50 mb-5 img-fluid" /></a>
+            <div class="col-sm-2 pl-md-5">
+                <a href="http://www.maaloufashford.com/" target="_blank"><img src="images/sponsors/maalouf.png" alt="Maalouf Ashford & Talbot, LLP" class="w-50 img-fluid" /></a>
             </div>
         </div>
-      </div>
-      <div class="container text-center">
-          <a href="sponsors.html" class="btn btn-outline-primary btn-lg rounded-0 p-2 px-4">Become A Sponsor</a>
       </div>
     </div>
     

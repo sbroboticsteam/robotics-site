@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>{% title %}</title>
+  <!-- Required Meta Tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -10,6 +10,7 @@
   <meta name="revisit-after" content="14 days">
   <meta name="google-site-verification" content="PJyqZRxTSg9R1r08K_bH_nlnriO0IYB5kYxznYyrD_o" />
 
+  <!-- Web Search + Social Media Meta Tags -->
   <meta property="og:site_name" content="Stony Brook Robotics Team" />
   <meta property="og:title" content="Stony Brook Robotics Team" />
   <meta property="og:url" content="http://sbroboticsteam.com" />
@@ -23,11 +24,9 @@
   <meta itemprop="url" content="http://sbroboticsteam.com" />
   <meta itemprop="description"
     content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
-  <meta itemprop="thumbnailUrl" content="images/logo.png" />
+  <meta itemprop="thumbnailUrl" content="{{ url_for('static', filename='images/logo.png') }}" />
+  <meta itemprop="image" content="{{ url_for('static', filename='images/logo.png') }}" />
 
-  <link rel="icon" type="images/png" href="images/favicon.png" />
-
-  <meta itemprop="image" content="images/logo.png" />
   <meta name="twitter:title" content="Stony Brook Robotics Team" />
   <meta name="twitter:image" content="images/logo.png" />
   <meta name="twitter:url" content="http://sbroboticsteam.com" />
@@ -37,191 +36,206 @@
   <meta name="description"
     content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
 
+  <!-- Favicon -->
+  <link rel="icon" type="images/png" href="{{ url_for('static', filename='images/favicon.png') }}" />
+
   <!-- Fonts -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
 
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icomoon/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery-ui.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-datepicker.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/aos.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
   <!-- Icons -->
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts/flaticon/font/flaticon.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icomoon/style.css') }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css/aos.css">
-
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Title -->
+  {% if title %}
+  <title>{{ title }} &#8211&#8211 Stony Brook Robotics Team</title>
+  {% else %}
+  <title>Stony Brook Robotics Team</title>
+  {% endif %}
 
 </head>
 
 <body>
-    <div class="site-wrap">
+  <div class="site-wrap">
 
-        <div class="site-mobile-menu">
-          <div class="site-mobile-menu-header">
-            <div class="site-mobile-menu-close mt-3">
-              <span class="icon-close2 js-menu-toggle"></span>
-            </div>
-          </div>
-          <div class="site-mobile-menu-body"></div>
-        </div> <!-- .site-mobile-menu -->
-    
-    
-        <div class="site-navbar-wrap bg-white">
-          <div class="site-navbar-top">
-            <div class="container py-2">
-              <div class="row align-items-center">
-                <div class="col-6">
-                  <a href="https://www.instagram.com/sbroboticsteam/" class="p-2 pl-0" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="https://www.facebook.com/SBRoboticsTeam/" class="p-2 pl-0" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/company/sbroboticsteam/" class="p-2 pl-0" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </div>
-                <div class="col-6">
-                  <div class="d-flex ml-auto">
-                    <a href="mailto:robotics_team@stonybrook.edu" class="d-flex align-items-center ml-auto mr-4"
-                      target="_blank">
-                      <span class="icon-envelope mr-2"></span>
-                      <span class="d-none d-md-inline-block">robotics_team@stonybrook.edu</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="site-navbar bg-light">
-            <div class="container py-1">
-              <div class="row align-items-center">
-                <div class="col-2">
-                  <h2 class="mb-0 site-logo"><a href="/home"><img src="images/logo.png" alt="SBRT" /></a></h2>
-                </div>
-                <div class="col-10">
-                  <nav class="site-navigation text-right" role="navigation">
-                    <div class="container">
-                      <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#"
-                          class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-    
-                      <ul class="site-menu js-clone-nav d-none d-lg-block">
-                      <li><a href="/home">Home</a></li>
-                      <li class="has-children">
-                        <a href="#">About</a>
-                        <ul class="dropdown arrow-top">
-                          <li><a href="/about">The Team</a></li>
-                          <li><a href="/mentorship">Mentorship</a></li>
-                          <li><a href="/internalcomp">Internal Competition</a></li>
-                        </ul>
-                      </li>
-                      <li class="has-children">
-                        <a href="#">Projects</a>
-                        <ul class="dropdown arrow-top">
-                          <li><a href="/projects/autocar">AutoCar</a></li>
-                          <li><a href="/projects/rover">Mars Rover</a></li>
-                          <li class="has-children">
-                            <a href="#">Past Projects</a>
-                            <ul class="dropdown">
-                              <li><a href="/projects/mechwarfare">MechWarfare</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a href="/sponsors">Sponsors</a></li>
-                      <li><a href="/contact">Contact</a></li>
-                      <li><a href="/join">Join The Team</a></li>
-                    </ul>
-                    </div>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
-    
-        {% content block %} {% endblock content %}
-    
-        <div class="bg-light promo py-5 bg-primary border-top border-bottom" data-aos="fade">
-          <div class="container text-center">
-            <h1 class="d-block mb-2 font-weight-light text-black"><a href="/sponsors"
-                class="text-black d-block">Sponsors</a></h1>
-            <br />
-          </div>
-          <div class="justify-content-center">
-            <div class="row text-center flex-row">
-              <div class="col-md-3 pl-md-5">
-                <a href="http://stonybrookusg.org/" target="_blank"><img src="images/sponsors/usg.png"
-                    alt="Stony Brook University USG" class="w-75 mb-3 img-fluid" /></a>
-              </div>
-              <div class="col-md-3 pl-md-5">
-                <a href="https://www.stonybrook.edu/ceas/" target="_blank"><img src="images/sponsors/ceas.png"
-                    alt="Stony Brook University College of Engineering and Applied Sciences"
-                    class="w-75 mb-3 img-fluid" /></a>
-              </div>
-              <div class="col-md-3 pl-md-5">
-                <a href="https://voltera.io/" target="_blank"><img src="images/sponsors/voltera.png" alt="Voltera"
-                    class="w-75 mb-3 img-fluid" /></a>
-              </div>
-              <div class="col-md-3 pl-md-5">
-                <a href="http://www.maaloufashford.com/" target="_blank"><img src="images/sponsors/maalouf.png"
-                    alt="Maalouf Ashford & Talbot, LLP" class="w-50 img-fluid" /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-    
-        <footer class="site-footer">
-          <div class="container">
-            <div class="row pt-5 mt-0 text-center">
-              <div class="col-md-12">
-                <p>
-                  <a href="https://www.instagram.com/sbroboticsteam/" class="p-2 pl-0" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="https://www.facebook.com/SBRoboticsTeam/" class="p-2 pl-0" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/company/sbroboticsteam/" class="p-2 pl-0" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </p>
-                <p>
-                  Copyright &copy;
-                  <script data-cfasync="false"
-                    src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                  <script>document.write(new Date().getFullYear());</script> All Rights Reserved | Stony Brook Robotics Team
-                </p>
-              </div>
-    
-            </div>
-          </div>
-        </footer>
       </div>
-    
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/jquery-migrate-3.0.1.min.js"></script>
-      <script src="js/jquery-ui.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/owl.carousel.min.js"></script>
-      <script src="js/jquery.stellar.min.js"></script>
-      <script src="js/jquery.countdown.min.js"></script>
-      <script src="js/jquery.magnific-popup.min.js"></script>
-      <script src="js/bootstrap-datepicker.min.js"></script>
-      <script src="js/aos.js"></script>
-    
-      <script src="js/main.js"></script>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+
+
+    <div class="site-navbar-wrap bg-white">
+      <div class="site-navbar-top">
+        <div class="container py-2">
+          <div class="row align-items-center">
+            <div class="col-6">
+              <a href="https://www.instagram.com/sbroboticsteam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/SBRoboticsTeam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/sbroboticsteam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="col-6">
+              <div class="d-flex ml-auto">
+                <a href="mailto:robotics_team@stonybrook.edu" class="d-flex align-items-center ml-auto mr-4"
+                  target="_blank">
+                  <span class="icon-envelope mr-2"></span>
+                  <span class="d-none d-md-inline-block">robotics_team@stonybrook.edu</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-navbar bg-light">
+        <div class="container py-1">
+          <div class="row align-items-center">
+            <div class="col-2">
+              <h2 class="mb-0 site-logo"><a href="{{ url_for('home') }}"><img
+                    src="{{ url_for('static', filename='images/logo.png') }}" alt="SBRT" /></a>
+              </h2>
+            </div>
+            <div class="col-10">
+              <nav class="site-navigation text-right" role="navigation">
+                <div class="container">
+                  <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#"
+                      class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+                  <ul class="site-menu js-clone-nav d-none d-lg-block">
+                    <li><a href="{{ url_for('home') }}">Home</a></li>
+                    <li class="has-children">
+                      <a href="#">About</a>
+                      <ul class="dropdown arrow-top">
+                        <li><a href="{{ url_for('about') }}">The Team</a></li>
+                        <li><a href="{{ url_for('mentorship') }}">Mentorship</a></li>
+                        <li><a href="{{ url_for('internalcomp') }}">Internal Competition</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-children">
+                      <a href="#">Projects</a>
+                      <ul class="dropdown arrow-top">
+                        <li><a href="{{ url_for('autocar') }}">AutoCar</a></li>
+                        <li><a href="{{ url_for('rover') }}">Mars Rover</a></li>
+                        <li class="has-children">
+                          <a href="#">Past Projects</a>
+                          <ul class="dropdown">
+                            <li><a href="{{ url_for('mechwarfare') }}">MechWarfare</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="{{ url_for('sponsors') }}">Sponsors</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                    <li><a href="{{ url_for('join') }}">Join The Team</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% block content %} {% endblock content %}
+
+    {% if sponsors %}
+    {% else %}
+    <div class="bg-light promo py-5 bg-primary border-top border-bottom" data-aos="fade">
+      <div class="container text-center">
+        <h1 class="d-block mb-2 font-weight-light text-black"><a href="{{ url_for('sponsors') }}"
+            class="text-black d-block">Sponsors</a></h1>
+        <br />
+      </div>
+      <div class="justify-content-center">
+        <div class="row text-center flex-row">
+          <div class="col-md-3 pl-md-5">
+            <a href="http://stonybrookusg.org/" target="_blank"><img
+                src="{{ url_for('static', filename='images/sponsors/usg.png') }}" alt="Stony Brook University USG"
+                class="w-75 mb-3 img-fluid" /></a>
+          </div>
+          <div class="col-md-3 pl-md-5">
+            <a href="https://www.stonybrook.edu/ceas/" target="_blank"><img
+                src="{{ url_for('static', filename='images/sponsors/ceas.png') }}"
+                alt="Stony Brook University College of Engineering and Applied Sciences"
+                class="w-75 mb-3 img-fluid" /></a>
+          </div>
+          <div class="col-md-3 pl-md-5">
+            <a href="https://voltera.io/" target="_blank"><img
+                src="{{ url_for('static', filename='images/sponsors/voltera.png') }}" alt="Voltera"
+                class="w-75 mb-3 img-fluid" /></a>
+          </div>
+          <div class="col-md-3 pl-md-5">
+            <a href="http://www.maaloufashford.com/" target="_blank"><img
+                src="{{ url_for('static', filename='images/sponsors/maalouf.png') }}"
+                alt="Maalouf Ashford & Talbot, LLP" class="w-50 img-fluid" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row pt-5 mt-0 text-center">
+          <div class="col-md-12">
+            <p>
+              <a href="https://www.instagram.com/sbroboticsteam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/SBRoboticsTeam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/sbroboticsteam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </p>
+            <p>
+              Copyright &copy;
+              <script data-cfasync="false"
+                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+              <script>document.write(new Date().getFullYear());</script> All Rights Reserved | Stony Brook Robotics Team
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/jquery-3.3.1.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery-migrate-3.0.1.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery-ui.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.stellar.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.countdown.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/bootstrap-datepicker.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/aos.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 
 </html>

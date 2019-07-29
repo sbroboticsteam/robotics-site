@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="14 days">
+  <meta name="google-site-verification" content="PJyqZRxTSg9R1r08K_bH_nlnriO0IYB5kYxznYyrD_o" />
+
+  <!-- Web Search + Social Media Meta Tags -->
+  <meta property="og:site_name" content="Stony Brook Robotics Team" />
+  <meta property="og:title" content="Stony Brook Robotics Team" />
+  <meta property="og:url" content="http://sbroboticsteam.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description"
+    content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
+  <meta property="og:image" content="images/logo.png" />
+  <meta property="og:image:width" content="1000" />
+  <meta property="og:image:height" content="1000" />
+  <meta itemprop="name" content="Stony Brook Robotics Team" />
+  <meta itemprop="url" content="http://sbroboticsteam.com" />
+  <meta itemprop="description"
+    content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
+  <meta itemprop="thumbnailUrl" content="/static/images/logo.png" />
+  <meta itemprop="image" content="/static/images/logo.png" />
+
+  <meta name="twitter:title" content="Stony Brook Robotics Team" />
+  <meta name="twitter:image" content="images/logo.png" />
+  <meta name="twitter:url" content="http://sbroboticsteam.com" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description"
+    content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
+  <meta name="description"
+    content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="images/png" href="/static/images/favicon.png" />
+
+  <!-- Fonts -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="/static/fonts/icomoon/style.css">
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/magnific-popup.css">
+  <link rel="stylesheet" href="/static/css/jquery-ui.css">
+  <link rel="stylesheet" href="/static/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="/static/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="/static/css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="/static/css/aos.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="/static/fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="/static/fonts/icomoon/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <!-- Title -->
+  
+  <title>AutoCar &#8211&#8211 Stony Brook Robotics Team</title>
+  
+
+</head>
+
+<body>
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+
+
+    <div class="site-navbar-wrap bg-white">
+      <div class="site-navbar-top">
+        <div class="container py-2">
+          <div class="row align-items-center">
+            <div class="col-6">
+              <a href="https://www.instagram.com/sbroboticsteam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/SBRoboticsTeam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/sbroboticsteam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="col-6">
+              <div class="d-flex ml-auto">
+                <a href="mailto:robotics_team@stonybrook.edu" class="d-flex align-items-center ml-auto mr-4"
+                  target="_blank">
+                  <span class="icon-envelope mr-2"></span>
+                  <span class="d-none d-md-inline-block">robotics_team@stonybrook.edu</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-navbar bg-light">
+        <div class="container py-1">
+          <div class="row align-items-center">
+            <div class="col-2">
+              <h2 class="mb-0 site-logo"><a href="/home"><img
+                    src="/static/images/logo.png" alt="SBRT" /></a>
+              </h2>
+            </div>
+            <div class="col-10">
+              <nav class="site-navigation text-right" role="navigation">
+                <div class="container">
+                  <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#"
+                      class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+                  <ul class="site-menu js-clone-nav d-none d-lg-block">
+                    <li><a href="/home">Home</a></li>
+                    <li class="has-children">
+                      <a href="#">About</a>
+                      <ul class="dropdown arrow-top">
+                        <li><a href="/about">The Team</a></li>
+                        <li><a href="/mentorship">Mentorship</a></li>
+                        <li><a href="/internalcomp">Internal Competition</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-children">
+                      <a href="#">Projects</a>
+                      <ul class="dropdown arrow-top">
+                        <li><a href="/projects/autocar">AutoCar</a></li>
+                        <li><a href="/projects/rover">Mars Rover</a></li>
+                        <li class="has-children">
+                          <a href="#">Past Projects</a>
+                          <ul class="dropdown">
+                            <li><a href="/projects/mechwarfare">MechWarfare</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="/sponsors">Sponsors</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/join">Join The Team</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+<div class="site-blocks-cover inner-page overlay" style="background-image: url(../static/images/black_stock.jpg);" data-aos="fade"
+  data-stellar-background-ratio="0.9">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-7 text-center">
+        <h1 class="mb-5"><strong>Auto</strong>Car</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="site-section section-about">
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-6 text-center">
+        <h2 class="display-4 text-black mb-5">Meet <strong>AutoCar</strong></h2>
+      </div>
+      <p class="col-md-12">
+        <b>AutoCar</b> is a fully-autonomous ground vehicle project focused on developing a
+        robot capable of traversing simulated urban street environments for the 2020 International
+        Autonomous Robot Racing Competition.
+      </p>
+      <p class="col-md-12">
+        The International Autonomous Robot Racing Competition (IARRC) is a robotics competition hosted
+        at the University of Waterloo in Ontario, Canada. The primary objective of the competition is
+        to develop a fully-autonomous ground vehicle to navigate twisting, obstacle-filled courses designed
+        to simulate urban street environments and rough terrain. Started in 2005, the IARRC aims to
+        promote research in autonomous mobile robotics technology and to develop participants'
+        technical skill-sets.
+      </p>
+      <p class="col-md-12"></p>
+      <p class="col-md-12">
+        For more information about the IARRC, visit their <a href="https://iarrc.org/" target="_blank">website</a>.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+    
+    <div class="bg-light promo py-5 bg-primary border-top border-bottom" data-aos="fade">
+      <div class="container text-center">
+        <h1 class="d-block mb-2 font-weight-light text-black"><a href="/sponsors"
+            class="text-black d-block">Sponsors</a></h1>
+        <br />
+      </div>
+      <div class="justify-content-center">
+        <div class="row text-center flex-row">
+          <div class="col-md-3 pl-md-5">
+            <a href="http://stonybrookusg.org/" target="_blank"><img
+                src="/static/images/sponsors/usg.png" alt="Stony Brook University USG"
+                class="w-75 mb-3 img-fluid" /></a>
+          </div>
+          <div class="col-md-3 pl-md-5">
+            <a href="https://www.stonybrook.edu/ceas/" target="_blank"><img
+                src="/static/images/sponsors/ceas.png"
+                alt="Stony Brook University College of Engineering and Applied Sciences"
+                class="w-75 mb-3 img-fluid" /></a>
+          </div>
+          <div class="col-md-3 pl-md-5">
+            <a href="https://voltera.io/" target="_blank"><img
+                src="/static/images/sponsors/voltera.png" alt="Voltera"
+                class="w-75 mb-3 img-fluid" /></a>
+          </div>
+          <div class="col-md-3 pl-md-5">
+            <a href="http://www.maaloufashford.com/" target="_blank"><img
+                src="/static/images/sponsors/maalouf.png"
+                alt="Maalouf Ashford & Talbot, LLP" class="w-50 img-fluid" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row pt-5 mt-0 text-center">
+          <div class="col-md-12">
+            <p>
+              <a href="https://www.instagram.com/sbroboticsteam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/SBRoboticsTeam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/sbroboticsteam/" class="p-2 pl-0" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </p>
+            <p>
+              Copyright &copy;
+              <script data-cfasync="false"
+                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+              <script>document.write(new Date().getFullYear());</script> All Rights Reserved | Stony Brook Robotics Team
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/static/js/jquery-3.3.1.min.js"></script>
+  <script src="/static/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="/static/js/jquery-ui.js"></script>
+  <script src="/static/js/popper.min.js"></script>
+  <script src="/static/js/owl.carousel.min.js"></script>
+  <script src="/static/js/jquery.stellar.min.js"></script>
+  <script src="/static/js/jquery.countdown.min.js"></script>
+  <script src="/static/js/jquery.magnific-popup.min.js"></script>
+  <script src="/static/js/bootstrap-datepicker.min.js"></script>
+  <script src="/static/js/aos.js"></script>
+  <script src="/static/js/main.js"></script>
+</body>
+
+</html>

@@ -1,444 +1,224 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'layout.html' %}
 
-<head>
-  <title>About &#8212; Stony Brook Robotics Team</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <meta name="robots" content="index, follow">
-  <meta name="revisit-after" content="14 days">
-
-  <meta property="og:site_name" content="Stony Brook Robotics Team" />
-  <meta property="og:title" content="Stony Brook Robotics Team" />
-  <meta property="og:url" content="http://sbroboticsteam.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:description"
-    content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
-  <meta property="og:image" content="images/logo.png" />
-  <meta property="og:image:width" content="1000" />
-  <meta property="og:image:height" content="1000" />
-  <meta itemprop="name" content="Stony Brook Robotics Team" />
-  <meta itemprop="url" content="http://sbroboticsteam.com" />
-  <meta itemprop="description"
-    content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
-  <meta itemprop="thumbnailUrl" content="images/logo.png" />
-
-  <link rel="icon" type="images/png" href="images/favicon.png" />
-
-  <meta itemprop="image" content="images/logo.png" />
-  <meta name="twitter:title" content="Stony Brook Robotics Team" />
-  <meta name="twitter:image" content="images/logo.png" />
-  <meta name="twitter:url" content="http://sbroboticsteam.com" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:description"
-    content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
-  <meta name="description"
-    content="The Stony Brook Robotics Team is a multidisciplinary engineering design team that aspires to develop our members' technical skills through competition-based projects." />
-
-  <!-- Fonts -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900|Roboto+Mono:300,400,500">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
-  <link rel="stylesheet" href="css/jquery-ui.css">
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-
-  <!-- Icons -->
-  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-  <link rel="stylesheet" href="fonts/icomoon/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-  <link rel="stylesheet" href="css/aos.css">
-
-  <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-<body>
-
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
-
-
-    <div class="site-navbar-wrap bg-white">
-      <div class="site-navbar-top">
-        <div class="container py-2">
-          <div class="row align-items-center">
-            <div class="col-6">
-              <a href="https://www.instagram.com/sbroboticsteam/" class="p-2 pl-0" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="https://www.facebook.com/SBRoboticsTeam/" class="p-2 pl-0" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="https://www.linkedin.com/company/sbroboticsteam/" class="p-2 pl-0" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
-            <div class="col-6">
-              <div class="d-flex ml-auto">
-                <a href="mailto:robotics_team@stonybrook.edu" class="d-flex align-items-center ml-auto mr-4"
-                  target="_blank">
-                  <span class="icon-envelope mr-2"></span>
-                  <span class="d-none d-md-inline-block">robotics_team@stonybrook.edu</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="site-navbar bg-light">
-        <div class="container py-1">
-          <div class="row align-items-center">
-            <div class="col-2">
-              <h2 class="mb-0 site-logo"><a href="index.html"><img src="images/logo.png" alt="SBRT" /></a></h2>
-            </div>
-            <div class="col-10">
-              <nav class="site-navigation text-right" role="navigation">
-                <div class="container">
-                  <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#"
-                      class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
-
-                  <ul class="site-menu js-clone-nav d-none d-lg-block">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active has-children">
-                      <a href="#">About</a>
-                      <ul class="dropdown arrow-top">
-                        <li class="active"><a href="about.html">The Team</a></li>
-                        <li><a href="mentorship.html">Mentorship</a></li>
-                        <li><a href="internalcomp.html">Internal Competition</a></li>
-                      </ul>
-                    </li>
-                    <li class="has-children">
-                      <a href="#">Projects</a>
-                      <ul class="dropdown arrow-top">
-                        <li><a href="autocar.html">AutoCar</a></li>
-                        <li><a href="rover.html">Mars Rover</a></li>
-                        <li class="has-children">
-                          <a href="#">Past Projects</a>
-                          <ul class="dropdown">
-                            <li><a href="mechwarfare.html">MechWarfare</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a href="sponsors.html">Sponsors</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="join.html">Join The Team</a></li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
+{% block content %}
+<div class="site-blocks-cover inner-page overlay" style="background-image: url(static/images/2018_2019/team2018_2019.jpg);"
+  data-aos="fade" data-stellar-background-ratio="0.9">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-7 text-center">
+        <h1 class="mb-5">The <strong>Team</strong></h1>
       </div>
     </div>
-
-
-    <div class="site-blocks-cover inner-page overlay" style="background-image: url(images/2018_2019/team2018_2019.jpg);"
-      data-aos="fade" data-stellar-background-ratio="0.9">
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-md-7 text-center">
-            <h1 class="mb-5">The <strong>Team</strong></h1>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section section-about">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-6 text-center">
-            <h2 class="display-4 text-black">Innovate. Design. <strong>Build.</strong></h2>
-          </div>
-        </div>
-        <p class="col-md-12">
-          The Stony Brook Robotics Team is a competitive, multidisciplinary, engineering design team at Stony Brook University.
-          <strong>Our mission is to foster an interest in robotics through competition, to empower students to gain
-            practical experience in engineering and design, and to develop a core community of dedicated roboticists,
-            scientists and engineers at Stony Brook.</strong> With a focus on team bonding and growth, we are
-          dedicated to developing the engineering community on-campus.
-        </p>
-        <p class="col-md-12"></p>
-        <p class="col-md-12"><strong>Member Development</strong></p>
-        <p class="col-md-12">
-          Above all else, we prioritize our members. As such, throughout the year, we host a diverse array
-          of workshops, design challenges and other events to teach foundational engineering and design tools
-          and methods, such as CAD, object-oriented programming and PCB design. We hope to continue to provide
-          our members with opportunities to grow and succeed as individuals and as professionals in their
-          respective fields.
-        </p>
-        <p class="col-md-12"></p>
-        <p class="col-md-12"><strong>Mentorship Program</strong></p>
-        <p class="col-md-12">
-          The Stony Brook Robotics Team's Mentoring Program is an initiative created to develop the skills of
-          aspiring roboticists, engineers and scientists at Stony Brook University through peer mentorship in a
-          wide-variety of fields ranging from mechanical design to object-oriented programming. The program matches
-          students to SBRT members based on topic and project interests. Over the course of a year, students are
-          taught the fundamentals of specific field and given collaborative projects that help them apply their
-          newly learned skills to build practical technologies.
-        </p>
-        <p class="text-center"><a href="mentorship.html" class="btn btn-primary rounded-0 px-4 py-2 text-white">Learn
-            More</a></p>
-        <p class="col-md-12"></p>
-        <p class="col-md-12"><strong>Internal Competition</strong></p>
-        <p class="col-md-12">
-          Every year, the Stony Brook Robotics Team hosts a robotics competition at Stony Brook University for
-          students interested in learning about robotics, developing their technical skills, and meeting like-minded
-          people from all across campus. Over the course of a month, students form teams of 4-6 members to
-          build robots to accomplish a set of tasks with the provided materials. On competition day, students have the
-          opportunity to show off their robots in front of their peers, faculty, and staff, as well as win awards.
-        </p>
-        <p class="text-center"><a href="internalcomp.html" class="btn btn-primary rounded-0 px-4 py-2 text-white">Get
-            Involved</a></p>
-        <p class="col-md-12"></p>
-        <p class="col-md-12"><strong>Interested in Joining?</strong></p>
-        <p class="col-md-12">
-          At the start of every semester, we recruit motivated and hard-working students from all years and
-          from all disciplines who wish to be part of a continously-growing community and share their passion
-          for engineering, design and robotics. Students of all skill-levels are welcome!
-        </p>
-        <p class="text-center"><a href="join.html" class="btn btn-primary rounded-0 px-4 py-2 text-white">Join The
-            Team</a></p>
-      </div>
-    </div>
-
-    <div class="site-section section-about bg-light">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-6 text-center">
-            <h2 class="display-4 text-black mb-5">Executive <strong>Board</strong></h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 pl-md-5 text-left mb-5">
-            <div>
-              <img src="images/eboard/pres.jpg" alt="Image" class="w-50 mb-5 rounded">
-              <h3>Prangon Ghose</h3>
-              <p class="lead">President</p>
-              <p>Prangon Ghose is a third year Computer Engineering student with a passion for product management
-                and hardware-software integration.</p>
-            </div>
-          </div>
-          <div class="col-md-4 pl-md-5 text-left mb-5">
-            <div>
-              <img src="images/eboard/vp.jpg" alt="Image" class="w-50 mb-5 rounded">
-              <h3>Kevin Li</h3>
-              <p class="lead">Vice President</p>
-              <p>Kevin Li is a fourth year Mechanical Engineering student with a passion for mechatronics and 3D 
-                printing technology.</p>
-            </div>
-          </div>
-          <div class="col-md-4 pl-md-5 text-left mb-5">
-            <div>
-              <img src="images/eboard/treas.jpg" alt="Image" class="w-50 mb-5 rounded">
-              <h3>Jamila Khanfri</h3>
-              <p class="lead">Treasurer</p>
-              <p>Jamila Khanfri is a third year Mechanical Engineering student with an interest in robotics.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 pl-md-5 text-left mb-5">
-            <div>
-              <img src="images/eboard/sec.jpg" alt="Image" class="w-50 mb-5 rounded">
-              <h3>Sean Reagan</h3>
-              <p class="lead">Secretary</p>
-              <p>Sean Reagan is a third year Computer Science student with a focus on cyber security and computer networks.</p>
-            </div>
-          </div>
-          <div class="col-md-4 pl-md-5 text-left mb-5">
-            <div>
-              <img src="images/eboard/prd.jpg" alt="Image" class="w-50 mb-5 rounded">
-              <h3>Albert Thomas</h3>
-              <p class="lead">Public Relations Director</p>
-              <p>Albert Thomas is a third year Computer Engineering student with interests in bionics and embedded systems.</p>
-            </div>
-          </div>
-          <div class="col-md-4 pl-md-5 text-left mb-5">
-            <div>
-              <img src="images/eboard/sd.jpg" alt="Image" class="w-50 mb-5 rounded">
-              <h3>Dorothy Lee</h3>
-              <p class="lead">Sponsorship Director</p>
-              <p>Dorothy Lee is a second year Electrical Engineering student with an interest in robotics.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 pl-md-5 text-left mb-5">
-            <div>
-              <img src="images/eboard/stl.jpg" alt="Image" class="w-50 mb-5 rounded">
-              <h3>Daniel Moses</h3>
-              <p class="lead">Software Team Lead</p>
-              <p>Daniel Moses is a fourth year Computer Science student with a passion for in robotics and large-scale
-                systems.</p>
-            </div>
-          </div>
-          <div class="col-md-4 pl-md-5 text-left mb-5">
-            <div>
-              <img src="images/eboard/etl.jpg" alt="Image" class="w-50 mb-5 rounded">
-              <h3>Lily Li</h3>
-              <p class="lead">Electrical Team Lead</p>
-              <p>Lily Li is a second year Computer Engineering student with interests in robotics and embedded
-                systems.</p>
-            </div>
-          </div>
-          <div class="col-md-4 pl-md-5 text-left mb-5">
-            <div>
-              <img src="images/eboard/mtl.jpg" alt="Image" class="w-50 mb-5 rounded">
-              <h3>Joseph Maalouf</h3>
-              <p class="lead">Mechanical Team Lead</p>
-              <p>Joseph Maalouf is a third year Mechanical Engineering student with a passion for CAD and fabrication.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section bg-white">
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-6 text-center">
-            <h2 class="display-4 text-black mb-5">Design <strong>Teams</strong></h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="site-block-feature-2 d-flex rounded mb-5">
-              <div class="mr-4">
-                <i class="fa fa-3x fa-code"></i>
-              </div>
-              <div class="text">
-                <h3>Software</h3>
-                <p>The Software Team is a robust and multi-disciplinary team with a focus toward
-                  autonomous navigation, computer vision and control systems. The team's main
-                  function is to develop the programs and applications that bring our robots to life.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="site-block-feature-2 d-flex rounded mb-5">
-              <div class="mr-4">
-                <i class="fa fa-3x fa-bolt"></i>
-              </div>
-              <div class="text">
-                <h3>Electrical</h3>
-                <p>The Electrical Team is an electrical engineering team geared toward PCB design,
-                  embedded systems. The team's primary function is to develop the core circuits that
-                  power our robots and to serve as an interface between the mechanical and software systems.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="site-block-feature-2 d-flex rounded mb-5">
-              <div class="mr-4">
-                <i class="fa fa-3x fa-cogs"></i>
-              </div>
-              <div class="text">
-                <h3>Mechanical</h3>
-                <p>The Mechanical Team is a multi-disciplinary design and fabrication team with a
-                  focus on CAD and mechanical fabrication. The team's main function is to design
-                  and build the mechanical structure of our robots.
-                </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div class="bg-light promo py-5 bg-primary border-top border-bottom" data-aos="fade">
-      <div class="container text-center">
-        <h1 class="d-block mb-2 font-weight-light text-black"><a href="sponsors.html"
-            class="text-black d-block">Sponsors</a></h1>
-        <br />
-      </div>
-      <div class="justify-content-center">
-        <div class="row text-center flex-row">
-          <div class="col-md-3 pl-md-5">
-            <a href="http://stonybrookusg.org/" target="_blank"><img src="images/sponsors/usg.png"
-                alt="Stony Brook University USG" class="w-75 mb-3 img-fluid" /></a>
-          </div>
-          <div class="col-md-3 pl-md-5">
-            <a href="https://www.stonybrook.edu/ceas/" target="_blank"><img src="images/sponsors/ceas.png"
-                alt="Stony Brook University College of Engineering and Applied Sciences"
-                class="w-75 mb-3 img-fluid" /></a>
-          </div>
-          <div class="col-md-3 pl-md-5">
-            <a href="https://voltera.io/" target="_blank"><img src="images/sponsors/voltera.png" alt="Voltera"
-                class="w-75 mb-3 img-fluid" /></a>
-          </div>
-          <div class="col-md-3 pl-md-5">
-            <a href="http://www.maaloufashford.com/" target="_blank"><img src="images/sponsors/maalouf.png"
-                alt="Maalouf Ashford & Talbot, LLP" class="w-50 img-fluid" /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row pt-5 mt-0 text-center">
-          <div class="col-md-12">
-            <p>
-              <a href="https://www.instagram.com/sbroboticsteam/" class="p-2 pl-0" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="https://www.facebook.com/SBRoboticsTeam/" class="p-2 pl-0" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="https://www.linkedin.com/company/sbroboticsteam/" class="p-2 pl-0" target="_blank">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </p>
-            <p>
-              Copyright &copy;
-              <script data-cfasync="false"
-                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-              <script>document.write(new Date().getFullYear());</script> All Rights Reserved | Stony Brook Robotics Team
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </footer>
   </div>
+</div>
 
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/jquery-ui.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/jquery.countdown.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/bootstrap-datepicker.min.js"></script>
-  <script src="js/aos.js"></script>
+<div class="site-section section-about">
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-6 text-center">
+        <h2 class="display-4 text-black">Innovate. Design. <strong>Build.</strong></h2>
+      </div>
+    </div>
+    <p class="col-md-12">
+      The Stony Brook Robotics Team is a competitive, multidisciplinary, engineering design team at Stony Brook
+      University.
+      <strong>Our mission is to foster an interest in robotics through competition, to empower students to gain
+        practical experience in engineering and design, and to develop a core community of dedicated roboticists,
+        scientists and engineers at Stony Brook.</strong> With a focus on team bonding and growth, we are
+      dedicated to developing the engineering community on-campus.
+    </p>
+    <p class="col-md-12"></p>
+    <p class="col-md-12"><strong>Member Development</strong></p>
+    <p class="col-md-12">
+      Above all else, we prioritize our members. As such, throughout the year, we host a diverse array
+      of workshops, design challenges and other events to teach foundational engineering and design tools
+      and methods, such as CAD, object-oriented programming and PCB design. We hope to continue to provide
+      our members with opportunities to grow and succeed as individuals and as professionals in their
+      respective fields.
+    </p>
+    <p class="col-md-12"></p>
+    <p class="col-md-12"><strong>Mentorship Program</strong></p>
+    <p class="col-md-12">
+      The Stony Brook Robotics Team's Mentoring Program is an initiative created to develop the skills of
+      aspiring roboticists, engineers and scientists at Stony Brook University through peer mentorship in a
+      wide-variety of fields ranging from mechanical design to object-oriented programming. The program matches
+      students to SBRT members based on topic and project interests. Over the course of a year, students are
+      taught the fundamentals of specific field and given collaborative projects that help them apply their
+      newly learned skills to build practical technologies.
+    </p>
+    <p class="text-center"><a href="{{ url_for('mentorship') }}" class="btn btn-primary rounded-0 px-4 py-2 text-white">Learn
+        More</a></p>
+    <p class="col-md-12"></p>
+    <p class="col-md-12"><strong>Internal Competition</strong></p>
+    <p class="col-md-12">
+      Every year, the Stony Brook Robotics Team hosts a robotics competition at Stony Brook University for
+      students interested in learning about robotics, developing their technical skills, and meeting like-minded
+      people from all across campus. Over the course of a month, students form teams of 4-6 members to
+      build robots to accomplish a set of tasks with the provided materials. On competition day, students have the
+      opportunity to show off their robots in front of their peers, faculty, and staff, as well as win awards.
+    </p>
+    <p class="text-center"><a href="{{ url_for('internalcomp') }}" class="btn btn-primary rounded-0 px-4 py-2 text-white">Get
+        Involved</a></p>
+    <p class="col-md-12"></p>
+    <p class="col-md-12"><strong>Interested in Joining?</strong></p>
+    <p class="col-md-12">
+      At the start of every semester, we recruit motivated and hard-working students from all years and
+      from all disciplines who wish to be part of a continously-growing community and share their passion
+      for engineering, design and robotics. Students of all skill-levels are welcome!
+    </p>
+    <p class="text-center"><a href="{{ url_for('join') }}" class="btn btn-primary rounded-0 px-4 py-2 text-white">Join The
+        Team</a></p>
+  </div>
+</div>
 
-  <script src="js/main.js"></script>
+<div class="site-section section-about bg-light">
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-6 text-center">
+        <h2 class="display-4 text-black mb-5">Executive <strong>Board</strong></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 pl-md-5 text-left mb-5">
+        <div>
+          <img src="{{ url_for('static', filename='images/eboard/pres.jpg') }}" alt="Image" class="w-50 mb-5 rounded">
+          <h3>Prangon Ghose</h3>
+          <p class="lead">President</p>
+          <p>Prangon Ghose is a third year Computer Engineering student with a passion for product management
+            and hardware-software integration.</p>
+        </div>
+      </div>
+      <div class="col-md-4 pl-md-5 text-left mb-5">
+        <div>
+          <img src="{{ url_for('static', filename='images/eboard/vp.jpg') }}" alt="Image" class="w-50 mb-5 rounded">
+          <h3>Kevin Li</h3>
+          <p class="lead">Vice President</p>
+          <p>Kevin Li is a fourth year Mechanical Engineering student with a passion for mechatronics and 3D
+            printing technology.</p>
+        </div>
+      </div>
+      <div class="col-md-4 pl-md-5 text-left mb-5">
+        <div>
+          <img src="{{ url_for('static', filename='images/eboard/treas.jpg') }}" alt="Image" class="w-50 mb-5 rounded">
+          <h3>Jamila Khanfri</h3>
+          <p class="lead">Treasurer</p>
+          <p>Jamila Khanfri is a third year Mechanical Engineering student with an interest in robotics.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 pl-md-5 text-left mb-5">
+        <div>
+          <img src="{{ url_for('static', filename='images/eboard/sec.jpg') }}" alt="Image" class="w-50 mb-5 rounded">
+          <h3>Sean Reagan</h3>
+          <p class="lead">Secretary</p>
+          <p>Sean Reagan is a third year Computer Science student with a focus on cyber security and computer networks.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 pl-md-5 text-left mb-5">
+        <div>
+          <img src="{{ url_for('static', filename='images/eboard/prd.jpg') }}" alt="Image" class="w-50 mb-5 rounded">
+          <h3>Albert Thomas</h3>
+          <p class="lead">Public Relations Director</p>
+          <p>Albert Thomas is a third year Computer Engineering student with interests in bionics and embedded systems.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 pl-md-5 text-left mb-5">
+        <div>
+          <img src="{{ url_for('static', filename='images/eboard/sd.jpg') }}" alt="Image" class="w-50 mb-5 rounded">
+          <h3>Dorothy Lee</h3>
+          <p class="lead">Sponsorship Director</p>
+          <p>Dorothy Lee is a second year Electrical Engineering student with an interest in robotics.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 pl-md-5 text-left mb-5">
+        <div>
+          <img src="{{ url_for('static', filename='images/eboard/stl.jpg') }}" alt="Image" class="w-50 mb-5 rounded">
+          <h3>Daniel Moses</h3>
+          <p class="lead">Software Team Lead</p>
+          <p>Daniel Moses is a fourth year Computer Science student with a passion for in robotics and large-scale
+            systems.</p>
+        </div>
+      </div>
+      <div class="col-md-4 pl-md-5 text-left mb-5">
+        <div>
+          <img src="{{ url_for('static', filename='images/eboard/etl.jpg') }}" alt="Image" class="w-50 mb-5 rounded">
+          <h3>Lily Li</h3>
+          <p class="lead">Electrical Team Lead</p>
+          <p>Lily Li is a second year Computer Engineering student with interests in robotics and embedded
+            systems.</p>
+        </div>
+      </div>
+      <div class="col-md-4 pl-md-5 text-left mb-5">
+        <div>
+          <img src="{{ url_for('static', filename='images/eboard/mtl.jpg') }}" alt="Image" class="w-50 mb-5 rounded">
+          <h3>Joseph Maalouf</h3>
+          <p class="lead">Mechanical Team Lead</p>
+          <p>Joseph Maalouf is a third year Mechanical Engineering student with a passion for CAD and fabrication.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-</body>
+<div class="site-section bg-white">
+  <div class="container">
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-6 text-center">
+        <h2 class="display-4 text-black mb-5">Design <strong>Teams</strong></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="site-block-feature-2 d-flex rounded mb-5">
+          <div class="mr-4">
+            <i class="fa fa-3x fa-code"></i>
+          </div>
+          <div class="text">
+            <h3>Software</h3>
+            <p>The Software Team is a robust and multi-disciplinary team with a focus toward
+              autonomous navigation, computer vision and control systems. The team's main
+              function is to develop the programs and applications that bring our robots to life.
+            </p>
+          </div>
+        </div>
+      </div>
 
-</html>
+      <div class="col-lg-4">
+        <div class="site-block-feature-2 d-flex rounded mb-5">
+          <div class="mr-4">
+            <i class="fa fa-3x fa-bolt"></i>
+          </div>
+          <div class="text">
+            <h3>Electrical</h3>
+            <p>The Electrical Team is an electrical engineering team geared toward PCB design,
+              embedded systems. The team's primary function is to develop the core circuits that
+              power our robots and to serve as an interface between the mechanical and software systems.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="site-block-feature-2 d-flex rounded mb-5">
+          <div class="mr-4">
+            <i class="fa fa-3x fa-cogs"></i>
+          </div>
+          <div class="text">
+            <h3>Mechanical</h3>
+            <p>The Mechanical Team is a multi-disciplinary design and fabrication team with a
+              focus on CAD and mechanical fabrication. The team's main function is to design
+              and build the mechanical structure of our robots.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock content %}

@@ -1,5 +1,9 @@
 from flask import Flask
+from flask_frozen import Freezer
 
 app = Flask(__name__)
 
-from sbrt-site import routes
+freezer = Freezer(app)
+
+
+from sbrtsite import routes

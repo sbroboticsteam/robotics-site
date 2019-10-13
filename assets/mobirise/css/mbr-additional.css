@@ -575,9 +575,6 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
-}
 #scrollToTop a i:before {
   content: '';
   position: absolute;
@@ -4454,6 +4451,9 @@ body {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #000000;
+}
+.cid-rzmb1LplS2 H1 {
+  text-align: center;
 }
 .cid-rzmb1MIuvz {
   padding-top: 90px;

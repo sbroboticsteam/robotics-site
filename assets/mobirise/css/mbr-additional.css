@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap);
 
 
 
@@ -26,7 +25,7 @@ body {
   font-size: 4.8rem;
 }
 .display-4 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-display: swap;
 }
@@ -1340,10 +1339,12 @@ section.lazy-placeholder:after {
 }
 .cid-rzmSIUeT8e P {
   color: #000000;
+  text-align: center;
 }
 .cid-rzmSIUeT8e .card-title,
 .cid-rzmSIUeT8e .card-img {
   color: #000000;
+  text-align: center;
 }
 .cid-rDvkAkPAJz {
   padding-top: 60px;
@@ -1375,10 +1376,12 @@ section.lazy-placeholder:after {
 }
 .cid-rDvkBUbCzL P {
   color: #000000;
+  text-align: center;
 }
 .cid-rDvkBUbCzL .card-title,
 .cid-rDvkBUbCzL .card-img {
   color: #000000;
+  text-align: center;
 }
 .cid-rBrPX2jUhZ {
   padding-top: 60px;
@@ -1405,6 +1408,7 @@ section.lazy-placeholder:after {
 }
 .cid-rzmSEyXFuo .mbr-text {
   color: #000000;
+  text-align: left;
 }
 .cid-rzmSu8Acjq {
   padding-top: 30px;
@@ -1443,6 +1447,7 @@ section.lazy-placeholder:after {
 }
 .cid-rzmSwmeP4V .mbr-text {
   color: #000000;
+  text-align: left;
 }
 .cid-rzmSz7e2sg {
   padding-top: 90px;

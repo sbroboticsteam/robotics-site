@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Stony Brook Robotics Team Website",
-    "currentPage": "index.html",
+    "currentPage": "partners.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -53,16 +53,11 @@
         "css": "'Lato', sans-serif",
         "name": "Lato",
         "url": "https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
-      },
-      {
-        "css": "'Rubik', sans-serif",
-        "name": "Rubik",
-        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
     "versionFirst": "4.7.6",
     "uniqCompNum": 34,
-    "versionPublish": "4.12.3",
+    "versionPublish": "4.11.4",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon-128x131.png",
     "noImageResize": ""
@@ -760,24 +755,6 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/hero-bg-2-2000x901.jpg",
                 "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "BE PART OF A<br><b>COMMUNITY</b>",
-                "overlay": true,
-                "contentAlign": "left",
-                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>",
-                "textTitle": "BE PART OF A<br><b>COMMUNITY</b>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/dsc-44-2000x1333.jpg",
-                "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,

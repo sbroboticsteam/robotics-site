@@ -1,0 +1,35 @@
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 300;
+   src: url('file:///C:/Users/long9/Documents/SBRTWEBSITE/robotics-site/fonts/Open Sans/300.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///C:/Users/long9/Documents/SBRTWEBSITE/robotics-site/fonts/Open Sans/800.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Open Sans';
+   font-style: regular;
+   font-display: swap;
+   font-weight: 400;
+   src: url('file:///C:/Users/long9/Documents/SBRTWEBSITE/robotics-site/fonts/Open Sans/regular.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Open Sans';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 700;
+   src: url('file:///C:/Users/long9/Documents/SBRTWEBSITE/robotics-site/fonts/Open Sans/700italic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'Open Sans';
+   font-style: italic;
+   font-display: swap;
+   font-weight: 800;
+   src: url('file:///C:/Users/long9/Documents/SBRTWEBSITE/robotics-site/fonts/Open Sans/800italic.ttf') format('truetype');
+}

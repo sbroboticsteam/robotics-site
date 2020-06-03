@@ -1588,6 +1588,46 @@ section.lazy-placeholder:after {
 .cid-rzmSGNDemU .item-role P {
   color: #000000;
 }
+.cid-s0OcwST75u {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-s0OcwST75u .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-s0OcwST75u .media-row {
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+}
+.cid-s0OcwST75u .team-item {
+  transition: all .2s;
+  margin-bottom: 2rem;
+}
+.cid-s0OcwST75u .team-item .item-image img {
+  width: 100%;
+}
+.cid-s0OcwST75u .team-item .item-name p {
+  margin-bottom: 0;
+}
+.cid-s0OcwST75u .team-item .item-role p {
+  margin-bottom: 0;
+}
+.cid-s0OcwST75u .team-item .item-social {
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+}
+.cid-s0OcwST75u .team-item .item-social .socicon {
+  color: #232323;
+  font-size: 17px;
+}
+.cid-s0OcwST75u .team-item .item-caption {
+  background: #efefef;
+}
 .cid-rB870pouV1 {
   padding-top: 30px;
   padding-bottom: 60px;

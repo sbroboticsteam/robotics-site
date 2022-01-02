@@ -4978,6 +4978,98 @@ section.lazy-placeholder:after {
 .cid-rzDJxwKc6O .mbr-text {
   color: #000000;
 }
+.cid-sToIETJRR1 {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-sToIETJRR1 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-sToIIiHPPZ {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+}
+.cid-sToIIiHPPZ .mbr-text,
+.cid-sToIIiHPPZ blockquote {
+  color: #767676;
+}
+.cid-sToIIiHPPZ .mbr-text {
+  color: #000000;
+}
+.cid-sToIIzLumO {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-sToIIzLumO .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-sToIIzLumO .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-sToIIzLumO .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-sToIIzLumO .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-sToIIzLumO .row > .row {
+  display: block;
+}
+.cid-sToIIzLumO .mbr-gallery-item {
+  width: 100%;
+}
+.cid-sToIIzLumO .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #990000;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+  background: linear-gradient(to left, #990000, #000000) !important;
+}
+.cid-sToIIzLumO .mbr-gallery-item > div {
+  position: relative;
+}
+.cid-sToIIzLumO .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-sToIIzLumO .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-sToIIzLumO .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+  text-align: center;
+}
+.cid-sToIIzLumO .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #990000 !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+  background: linear-gradient(to left, #990000, #000000) !important;
+}
 .cid-rDCjSZtYAX {
   padding-top: 60px;
   padding-bottom: 0px;

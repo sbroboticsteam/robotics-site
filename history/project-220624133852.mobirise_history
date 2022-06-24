@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Stony Brook Robotics Team Website",
-    "currentPage": "FAQ.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -73,7 +73,9 @@
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
-    "gdpr": false
+    "gdpr": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -8480,7 +8482,7 @@
         }
       ]
     },
-    "FAQ.html": {
+    "page10.html": {
       "settings": {
         "meta_descr": "The Stony Brook Robotics Team is a competitive, multidisciplinary, engineering design team at Stony Brook University.",
         "title": "FAQ | Stony Brook Robotics Team",

@@ -6980,64 +6980,6 @@ section.lazy-placeholder:after {
 .cid-sbCKODzhOq P {
   text-align: left;
 }
-.cid-t9nOMDy2rD {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #000000;
-}
-.cid-t9nOMDy2rD H1 {
-  text-align: center;
-  color: #ffffff;
-}
-.cid-t9nRpAWOuh {
-  padding-top: 90px;
-  padding-bottom: 0px;
-  position: relative;
-  background-color: #ffffff;
-}
-.cid-t9nRpAWOuh .card {
-  border-radius: 0px;
-  margin-bottom: -1px;
-}
-.cid-t9nRpAWOuh .card .card-header {
-  border-radius: 0px;
-  border: 0px;
-  padding: 0;
-}
-.cid-t9nRpAWOuh .card .card-header a.panel-title {
-  margin-bottom: 0;
-  font-style: normal;
-  font-weight: 500;
-  display: block;
-  text-decoration: none !important;
-  margin-top: -1px;
-  line-height: normal;
-}
-.cid-t9nRpAWOuh .card .card-header a.panel-title:focus {
-  text-decoration: none !important;
-}
-.cid-t9nRpAWOuh .card .card-header a.panel-title h4 {
-  padding: 1.3rem 2rem;
-  border: 1px solid #dfdfdf;
-  margin-bottom: 0;
-}
-.cid-t9nRpAWOuh .card .card-header a.panel-title h4 .sign {
-  padding-right: 1rem;
-}
-.cid-t9nRpAWOuh .card .panel-body {
-  color: #767676;
-}
-.cid-t9nRpAWOuh H4 {
-  color: #000000;
-  text-align: center;
-}
-.cid-t9nRpAWOuh .panel-text {
-  color: #000000;
-  text-align: left;
-}
-.cid-t9nRpAWOuh H2 {
-  color: #000000;
-}
 .cid-rzmikEos1H .navbar {
   padding: .5rem 0;
   background: #000000;
@@ -7426,6 +7368,64 @@ section.lazy-placeholder:after {
 .cid-rzmikEos1H .nav-link:hover,
 .cid-rzmikEos1H .dropdown-item:hover {
   color: #c1c1c1 !important;
+}
+.cid-t9nOMDy2rD {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #000000;
+}
+.cid-t9nOMDy2rD H1 {
+  text-align: center;
+  color: #ffffff;
+}
+.cid-t9nRpAWOuh {
+  padding-top: 90px;
+  padding-bottom: 0px;
+  position: relative;
+  background-color: #ffffff;
+}
+.cid-t9nRpAWOuh .card {
+  border-radius: 0px;
+  margin-bottom: -1px;
+}
+.cid-t9nRpAWOuh .card .card-header {
+  border-radius: 0px;
+  border: 0px;
+  padding: 0;
+}
+.cid-t9nRpAWOuh .card .card-header a.panel-title {
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 500;
+  display: block;
+  text-decoration: none !important;
+  margin-top: -1px;
+  line-height: normal;
+}
+.cid-t9nRpAWOuh .card .card-header a.panel-title:focus {
+  text-decoration: none !important;
+}
+.cid-t9nRpAWOuh .card .card-header a.panel-title h4 {
+  padding: 1.3rem 2rem;
+  border: 1px solid #dfdfdf;
+  margin-bottom: 0;
+}
+.cid-t9nRpAWOuh .card .card-header a.panel-title h4 .sign {
+  padding-right: 1rem;
+}
+.cid-t9nRpAWOuh .card .panel-body {
+  color: #767676;
+}
+.cid-t9nRpAWOuh H4 {
+  color: #000000;
+  text-align: center;
+}
+.cid-t9nRpAWOuh .panel-text {
+  color: #000000;
+  text-align: left;
+}
+.cid-t9nRpAWOuh H2 {
+  color: #000000;
 }
 .cid-t9nNOhT8Vd {
   padding-top: 0px;
